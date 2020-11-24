@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-HW#2
+# goit-markup-hw-01
+Репозиторий для ДЗ №1

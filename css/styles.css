@@ -74,6 +74,13 @@ ul {
 .header-nav-item-link:visited {
   color: var(--primary-text-color);
 }
+.header-nav-item-link:hover{
+  color: var(--accent-color);
+}
+.header-nav-item-link.is-current {
+  color: var(--accent-color);
+}
+
 .header-contacts-item-link {
   color: var(--secondary-text-color);
 }
@@ -81,16 +88,12 @@ ul {
 .header-contacts-item-link:focus {
   color: var(--accent-color);
 }
-.header-nav-item-link.is-current {
-  color: var(--accent-color);
-}
+
 /*================END HEADER================*/
 /*=====================MAIN=================*/
 /* Hero */
 .hero {
   background-color: var(--hero-background-color);
-  height: 600px;
-  width: 1600px;
 }
 .hero-title {
   color: var(--hero-text-color);
@@ -198,8 +201,6 @@ ul {
 
 .footer {
   background-color: var(--hero-background-color);
-  width: 1600px;
-  height: 252px;
 }
 .footer-logo {
   font-family: var(--logo-font);

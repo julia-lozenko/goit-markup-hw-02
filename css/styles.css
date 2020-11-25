@@ -15,7 +15,7 @@ font-family: 'Roboto', sans-serif;
 :root {
   --hero-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
-  --button-background-color: #F5F4FA;
+  --button-background-color: #f5f4fa;
 
   --hero-text-color: #ffffff;
   --primary-text-color: #212121;
@@ -71,8 +71,8 @@ ul {
   line-height: 1, 14;
   letter-spacing: 0.02em;
 }
-.header-nav-item-link:visited{
-  color: var(--primary-text-color)
+.header-nav-item-link:visited {
+  color: var(--primary-text-color);
 }
 .header-contacts-item-link {
   color: var(--secondary-text-color);
@@ -112,84 +112,84 @@ ul {
   line-height: 1.875;
   letter-spacing: 0.06em;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   text-align: center;
   align-items: center;
   color: var(--hero-text-color);
   background-color: var(--accent-color);
   text-decoration: none;
 }
- .hero-button{
-margin: 0 auto;
+.hero-button {
+  margin: 0 auto;
 }
 
 /* Advantages */
-.advant-item-title{
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+.advant-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-.advant-item-desc{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color);
+.advant-item-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 .team {
   background-color: var(--secondary-background-color);
 }
-.work-title, .team-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
+.work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team-info-list-item-name {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team-info-list-item-position {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color)
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 /* Portfolio buttons */
-.portfolio-btn {
-display: flex;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
-border-radius: 4px;
-background-color: var(--secondary-background-color);
-margin: 0 auto;
+.portfolio-btn, .button-portfolio-filter{
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  border-radius: 4px;
+  background-color: var(--secondary-background-color);
 }
+
 .portfolio-btn:hover,
-.portfolio-btn:focus    
-{
+.portfolio-btn:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
 .portfolio-link {
   text-decoration: none;
 }
-.portfolio-link:visited{
+.portfolio-link:visited {
   color: var(--primary-text-color);
 }
-.portfolio-link > .portfolio-subtitle{
+.portfolio-link > .portfolio-subtitle {
   color: var(--secondary-text-color);
 }
 
@@ -199,7 +199,7 @@ margin: 0 auto;
 .footer {
   background-color: var(--hero-background-color);
   width: 1600px;
-  height: 252px;   
+  height: 252px;
 }
 .footer-logo {
   font-family: var(--logo-font);
@@ -211,20 +211,20 @@ margin: 0 auto;
   color: #ffffff;
 }
 .footer-contacts-address {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .footer-contacts-link {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 /*==================END FOOTER=================*/

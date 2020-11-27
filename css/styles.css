@@ -28,6 +28,10 @@ body {
   background-color: #ffffff;
   color: #212121;
   font-family: "Roboto", sans-serif;
+  
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
 ul {
   margin: 0;
@@ -106,7 +110,7 @@ ul {
 }
 .button {
   width: 200px;
-  height: 50px;
+  min-height: 50px;
   left: 700px;
   top: 430px;
   border-radius: 4px;
@@ -121,6 +125,7 @@ ul {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
   text-decoration: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .hero-button {
   margin: 0 auto;
@@ -169,22 +174,32 @@ ul {
   color: var(--secondary-text-color);
 }
 /* Portfolio buttons */
-.portfolio-btn, .button-portfolio-filter{
-  display: inline-block;
+.portfolio-filter {
+display: flex;
+justify-content: center;
+}
+
+.portfolio-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
   border-radius: 4px;
-  background-color: var(--secondary-background-color);
+  border: none;
+  background: var(--secondary-background-color);
+  padding: 6px 22px;
+  margin-right: 8px
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: #ffffff;
   background-color: var(--accent-color);
+  box-shadow: 
+  0px 3px 1px rgba(0, 0, 0, 0.1), 
+  0px 1px 2px rgba(0, 0, 0, 0.08), 
+  0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-link {
   text-decoration: none;
